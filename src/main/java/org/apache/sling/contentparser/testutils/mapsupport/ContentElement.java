@@ -72,8 +72,8 @@ public final class ContentElement {
      * @return child or {@code null} if no child was found for the specified {@code path}
      */
     public ContentElement getChild(String path) {
-        String name = StringUtils.substringBefore(path, "/");
-        ContentElement child = children.get(name);
+        String childName = StringUtils.substringBefore(path, "/");
+        ContentElement child = children.get(childName);
         if (child == null) {
             return null;
         }
