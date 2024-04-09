@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -30,15 +30,13 @@
     <version>2.0.1-SNAPSHOT</version>
 
     <name>Apache Sling Content Parser Test Utilities</name>
-    <description>
-        Apache Sling Content Parser Test Utilities for the Content Parser API implementations
-    </description>
+    <description>Apache Sling Content Parser Test Utilities for the Content Parser API implementations</description>
 
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-contentparser-testutils.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-contentparser-testutils.git</developerConnection>
-        <url>https://github.com/apache/sling-org-apache-sling-contentparser-testutils.git</url>
         <tag>HEAD</tag>
+        <url>https://github.com/apache/sling-org-apache-sling-contentparser-testutils.git</url>
     </scm>
 
     <dependencies>
